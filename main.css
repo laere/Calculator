@@ -1,0 +1,71 @@
+/*================================================
+MAIN STYLING
+================================================*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/*================================================
+CALCULATOR
+================================================*/
+
+#calculator {
+  margin: 50px auto;
+  width: 500px;
+  height: 320px;
+  background-color: #222;
+  color: white;
+  border-radius: 20px;
+  padding-top: 10px;
+  border-bottom: 5px solid black;
+}
+
+#result {
+  background-color: white;
+  width: 280px;
+  height: 30px;
+  float: right;
+  margin: 10px;
+  border-radius: 5px;
+  color: black;
+}
+/*================================================
+BUTTONS
+================================================*/
+
+#clear,
+span {
+  background-color: #7E7878;
+  border-bottom: 5px solid #504949;
+  height: 40px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 10px;
+  line-height: 40px;
+  cursor:pointer;
+}
+#clear {
+  width: 150px;
+  background-color: #c0392b;
+  border-bottom: 5px solid #A63125;
+
+}
+
+span {
+  float: left;
+  width: 103px;
+}
+
+#clear:hover,
+span:hover {
+  opacity: .65;
+}
